@@ -1,0 +1,23 @@
+// general website styles
+body {
+    background-color: $darkTheme;
+
+    line-height: 1.5;
+    color: $whiteColor;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.space-area {
+    padding: 200px;
+}
+
+#root {
+    padding: 15px;
+}

@@ -1,0 +1,37 @@
+.about_me_section {
+    padding: 70px 100px;
+}
+
+.tech-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    margin-top: 20px;
+    overflow: hidden;
+    list-style: none;
+
+    li:before {
+        content: "➤";
+        color: #007bff;
+        margin-left: -2.9em;
+        font-size: 14px;
+        width: 1.3em;
+        margin-right: 10px;
+    }
+}
+
+.about_para {
+    width: 700px;
+    font-size: 20px;
+}
+
+/*************************/
+
+@media(max-width: 700px) {
+    .about_me_section {
+        padding: 50px 10px;
+    }
+
+    .about_para {
+        width: auto;
+    }
+}

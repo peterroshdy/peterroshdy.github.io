@@ -1,0 +1,25 @@
+footer {
+    padding: 70px 100px 0px 100px;
+
+    div {
+        line-height: 0px;
+
+        i {
+            margin-left: 5px;
+            margin-right: 5px;
+            color: white;
+        }
+    }
+}
+
+
+/*************************/
+
+@media(max-width: 700px) {
+    footer {
+        padding: 50px 10px 0px 10px;
+        ;
+    }
+
+
+}

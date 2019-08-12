@@ -1,0 +1,104 @@
+.swt_tgl {
+    width: 42px;
+    height: 22px;
+    border-radius: 50px;
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    background-color: #ccc;
+    cursor: pointer;
+    -webkit-transition: background-color .40s ease-in-out;
+    -moz-transition: background-color .40s ease-in-out;
+    -o-transition: background-color .40s ease-in-out;
+    transition: background-color .40s ease-in-out;
+    cursor: pointer;
+
+    &.swt_act {
+        background-color: $blueColor;
+
+        .swt_crl {
+            left: 23px;
+        }
+    }
+
+    .swt_crl {
+        width: 16px;
+        height: 16px;
+        background-color: $whiteColor;
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        left: 4px;
+        top: 71%;
+        margin-top: -13px;
+        filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.28));
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.28);
+        -webkit-transition: all .30s ease-in-out;
+        -moz-transition: all .30s ease-in-out;
+        -o-transition: all .30s ease-in-out;
+        transition: all .30s ease-in-out;
+    }
+
+    .swt_inp {
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        z-index: 9;
+        cursor: pointer;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+}
+
+.theme_switcher_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.sun {
+    position: absolute;
+    right: 65px;
+}
+
+.moon {
+    position: absolute;
+}
+
+.content {
+    padding: 115px 100px;
+}
+
+.content_hello {
+    font-family: 'Space Mono', monospace;
+    font-size: 32px;
+}
+
+.content_desc {
+    font-size: 50px;
+    line-height: 45px;
+}
+
+.content_contact {
+    max-width: 600px;
+
+}
+
+/*************************/
+
+@media(max-width: 700px) {
+    .content {
+        padding: 70px 10px;
+    }
+}
