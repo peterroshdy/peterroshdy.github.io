@@ -90,7 +90,7 @@ a:hover {
 
 .sun {
   position: absolute;
-  right: 65px;
+  right: 60px;
 }
 
 .moon {
@@ -487,7 +487,7 @@ a:hover {
     padding: 50px 10px;
   }
   .whats_next_section p {
-    width: auto;
+    width: 300px;
   }
 }
 
