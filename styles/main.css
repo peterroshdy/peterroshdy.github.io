@@ -113,6 +113,7 @@ a:hover {
 
 .content_contact {
   max-width: 600px;
+  font-weight: 100;
 }
 
 /*************************/
@@ -148,6 +149,7 @@ a:hover {
 .about_para {
   width: 700px;
   font-size: 20px;
+  font-weight: 100;
 }
 
 /*************************/
